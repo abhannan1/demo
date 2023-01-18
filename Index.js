@@ -1,9 +1,14 @@
-var email = document.getElementById("mail");
+// var email = document.getElementById("mail");
 
-email.addEventListener("keyup", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("I expect an e-mail, darling!");
-  } else {
-    email.setCustomValidity("");
-  }
-});
+// email.addEventListener("keyup", function (event) {
+//   if (email.validity.typeMismatch) {
+//     email.setCustomValidity("I expect an e-mail, darling!");
+//   } 
+  
+//   else {
+//     email.setCustomValidity("");
+//   }
+// }); 
+
+
+let email = 
